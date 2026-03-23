@@ -1,5 +1,6 @@
+<template>
   <div class="tasks-view animate-fade-in">
-    <header class="flex justify-between items-end mb-10">
+    <header class="flex justify-between items-end mb-8">
       <div>
         <h1 class="text-3xl mb-1">Tasks & Decisions</h1>
         <p class="text-muted">Track board resolutions, voting outcomes, and assigned action items.</p>
@@ -12,7 +13,7 @@
       </div>
     </header>
 
-    <div class="grid grid-cols-12 gap-10">
+    <div class="grid grid-cols-12 gap-8">
       <!-- Left Column: Tasks -->
       <div class="col-span-12 lg:col-span-8 flex flex-col gap-8">
         <div class="flex border-b mb-2">

@@ -1,5 +1,6 @@
+<template>
   <div class="meetings-view animate-fade-in">
-    <header class="flex justify-between items-end mb-10">
+    <header class="flex justify-between items-end mb-8">
       <div>
         <h1 class="text-3xl mb-1">Meeting Management</h1>
         <p class="text-muted">Schedule, manage, and coordinate board and committee meetings.</p>
@@ -10,7 +11,7 @@
       </button>
     </header>
 
-    <div class="grid grid-cols-3 gap-10">
+    <div class="grid grid-cols-3 gap-8">
       <!-- Meeting List -->
       <div class="col-span-2 flex flex-col gap-6">
         <div v-for="meeting in meetings" :key="meeting.id" 

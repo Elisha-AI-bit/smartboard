@@ -187,6 +187,6 @@ import { Calendar as CalendarIcon, Target as TargetIcon, Sparkles as SparklesIco
   .hero-title { font-size: 2.5rem; }
   .grid-cols-3 { grid-template-columns: 1fr; }
   .grid-cols-4 { grid-template-columns: 1fr; }
-  .px-12 { px-6; }
+  .px-12 { padding-left: var(--space-6); padding-right: var(--space-6); }
 }
 </style>

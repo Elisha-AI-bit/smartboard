@@ -81,7 +81,7 @@
           </h3>
           
           <div class="space-y-4 relative z-10">
-            <div v-v-for="insight in insights" :key="insight.id" class="insight-item">
+            <div v-for="insight in insights" :key="insight.id" class="insight-item">
               <div class="flex items-center gap-2 mb-2">
                 <div class="dot bg-primary"></div>
                 <span class="text-[10px] font-black uppercase tracking-widest text-slate-400">{{ insight.type }}</span>
@@ -206,7 +206,7 @@ const insights = [
 <style scoped>
 .dashboard {
   background: var(--background);
-  min-h-screen;
+  min-height: 100vh;
 }
 
 .stat-card {
@@ -233,7 +233,7 @@ const insights = [
 .bg-amber { background: #f59e0b; box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2); }
 
 .trend-badge {
-  font-[10px];
+  font-size: 10px;
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.1em;

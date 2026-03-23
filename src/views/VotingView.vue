@@ -1,5 +1,6 @@
+<template>
   <div class="voting-screen animate-fade-in">
-    <header class="flex justify-between items-end mb-10">
+    <header class="flex justify-between items-end mb-8">
       <div>
         <h1 class="text-3xl mb-1">Secure Voting</h1>
         <p class="text-muted">Cast your vote on board resolutions with blockchain-level security and transparency.</p>
@@ -10,9 +11,9 @@
       </div>
     </header>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div v-for="ballot in ballots" :key="ballot.id" 
-           class="card p-10 border-t-8 transition-all hover:shadow-2xl hover:-translate-y-1" 
+           class="card p-8 border-t-8 transition-all hover:shadow-2xl hover:-translate-y-1" 
            :class="`border-${ballot.color}-500 shadow-xl shadow-${ballot.color}-100/20`">
         <div class="flex justify-between items-start mb-8">
           <span class="badge px-4 py-1.5 text-[10px]" :class="`badge-${ballot.color}`">{{ ballot.category }}</span>
